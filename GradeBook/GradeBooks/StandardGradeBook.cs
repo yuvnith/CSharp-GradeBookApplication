@@ -5,11 +5,11 @@ using System.Text;
 
 namespace GradeBook.GradeBooks
 {
-    class StandardGradeBook : BaseGradeBook
+   public class StandardGradeBook : BaseGradeBook
     {
         public StandardGradeBook(string name) : base(name)
         {
-            Type = GradeBookType.Standard;
+           Type = GradeBookType.Standard;
         }
 
 
